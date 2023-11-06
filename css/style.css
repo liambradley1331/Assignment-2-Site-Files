@@ -1,0 +1,249 @@
+:root {
+    --bananaYellow: #FFE135;
+    --bananaBlue: #635CAA;
+    --bananaBleck: #BFB058;
+}
+
+
+
+
+
+
+
+
+div {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    min-width: 10%;
+    border-radius: 10px;
+}
+
+body {
+    background: var(--bananaBlue);
+    color: white;
+    font-family: 'quicksand', sans-serif;
+    font-size: 30px;
+}
+
+header {
+    background: var(--bananaYellow);
+    font-family: 'haettenschweiler', sans-serif;
+    width: 100%;
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    position: fixed;
+    z-index: 9;
+}
+
+footer {
+    background: var(--bananaYellow);
+}
+
+h2 {
+    color: black;
+    font-size: 48px;
+    text-align: left;
+}
+
+h3 {
+
+    color: black;
+    font-size: 48px;
+    text-align: right;
+}
+
+.headerPadding {
+    padding: 30px 0px;
+}
+
+.bananaPadding {
+    padding: 30px 120px;
+}
+
+.bananaPudding {
+    padding: 90px 90px;
+}
+
+.bananaPadding>div:nth-child(1) {
+    border-left: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(2) {
+    border-right: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(3) {
+    border-left: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(4) {
+    border-right: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(5) {
+    border-left: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(6) {
+    border-right: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(7) {
+    border-left: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(8) {
+    border-right: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(9) {
+    border-left: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(10) {
+    border-right: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.bananaPadding>div:nth-child(11) {
+    border-left: 10px dotted white;
+    border-bottom: 10px dotted white;
+}
+
+.gridContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .headerPadding {
+        padding: 15px 0px;
+    }
+
+    .bananaPadding {
+        padding: 20px 30px;
+    }
+
+    .bananaPudding {
+        padding: 30px 30px;
+    }
+
+    .gridContent {
+        grid-template-columns: 1fr;
+
+    }
+
+    .bananaPadding>div:nth-child(1) {
+        border-left: 10px dotted white;
+    }
+
+    .bananaPadding>div:nth-child(2) {
+        border-right: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(3) {
+        border-left: 10px dotted white;
+    }
+
+    .bananaPadding>div:nth-child(4) {
+        border-right: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(5) {
+        border-left: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(6) {
+        border-right: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(7) {
+        border-left: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(8) {
+        border-right: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(9) {
+        border-left: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(10) {
+        border-right: 10px dotted white;
+
+    }
+
+    .bananaPadding>div:nth-child(11) {
+        border-left: 10px dotted white;
+
+    }
+
+
+}
+
+
+
+
+/*
+january: https://www.freshfruitportal.com/news/2023/01/19/ecuadorian-banana-exporters-are-betting-on-a-big-comeback-for-2023/
+
+february: https://www.producebluebook.com/2023/02/06/the-dole-chiquita-banana-showdown/
+
+febimage: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DxDkHg7-covw&psig=AOvVaw0lPTmlyice99hFVOnQGWbq&ust=1699391109633000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLigoMejsIIDFQAAAAAdAAAAABA6
+
+march: https://www.tridge.com/insights/canadian-banana-retail-prices-resistant-to-inflation
+
+marchimage:https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tastingtable.com%2F944651%2Fthe-price-of-bananas-causes-sticker-shock%2F&psig=AOvVaw3MNGF5UCiVDrGpITxVOpc7&ust=1699391748298000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMCVnuOlsIIDFQAAAAAdAAAAABAD
+
+april: https://www.cnn.com/2023/04/13/europe/zoo-elephant-peels-bananas-scn/index.html
+
+
+may: https://www.theguardian.com/artanddesign/2023/may/01/banana-drama-hungry-south-korean-student-eats-120000-artwork
+
+june: https://www.theguardian.com/lifeandstyle/2023/jun/23/experience-i-ate-a-120000-banana
+
+July banana news: https://www.cbc.ca/news/canada/saskatoon/bananas-bananatrees-reginanean-ws-saskatchewnews-university-of-saskatchewan-1.6916563
+
+august: https://abcnews.go.com/International/wireStory/spain-busts-record-95-tons-cocaine-hidden-banana-102560998
+
+augustimage: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dailymail.co.uk%2Fnews%2Farticle-12451487%2FSpain-cocaine-Ecuador-banana.html&psig=AOvVaw17-QG_82JVGk5neQV-9Ako&ust=1699393704466000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOiVt4WtsIIDFQAAAAAdAAAAABAH
+
+september: https://www.latimes.com/world-nation/story/2023-09-04/drug-cartels-exploit-ecuador-banana-industry
+
+october: https://phys.org/news/2023-10-consequences-inaction-devastating-banana-disease.html
+
+november: https://www.foxweather.com/earth-space/bananas-extinct-disease
+
+
+*/
